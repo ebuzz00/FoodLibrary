@@ -13,6 +13,7 @@
 		F35E62B225D046EC000F8DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35E62B125D046EC000F8DA3 /* Preview Assets.xcassets */; };
 		F35E62BD25D046EC000F8DA3 /* FoodLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E62BC25D046EC000F8DA3 /* FoodLibraryTests.swift */; };
 		F35E62C825D046EC000F8DA3 /* FoodLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E62C725D046EC000F8DA3 /* FoodLibraryUITests.swift */; };
+		F37677F825D07D1300228DD4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37677F725D07D1300228DD4 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		F35E62A725D046EB000F8DA3 /* FoodLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35E62AA25D046EB000F8DA3 /* FoodLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibraryApp.swift; sourceTree = "<group>"; };
-		F35E62AC25D046EB000F8DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F35E62AC25D046EB000F8DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F35E62AE25D046EC000F8DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35E62B125D046EC000F8DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F35E62B325D046EC000F8DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		F35E62C325D046EC000F8DA3 /* FoodLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35E62C725D046EC000F8DA3 /* FoodLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLibraryUITests.swift; sourceTree = "<group>"; };
 		F35E62C925D046EC000F8DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37677F725D07D1300228DD4 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				F35E62AA25D046EB000F8DA3 /* FoodLibraryApp.swift */,
 				F35E62AC25D046EB000F8DA3 /* ContentView.swift */,
+				F37677F725D07D1300228DD4 /* main.storyboard */,
 				F35E62AE25D046EC000F8DA3 /* Assets.xcassets */,
 				F35E62B325D046EC000F8DA3 /* Info.plist */,
 				F35E62B025D046EC000F8DA3 /* Preview Content */,
@@ -235,6 +238,7 @@
 			files = (
 				F35E62B225D046EC000F8DA3 /* Preview Assets.xcassets in Resources */,
 				F35E62AF25D046EC000F8DA3 /* Assets.xcassets in Resources */,
+				F37677F825D07D1300228DD4 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
